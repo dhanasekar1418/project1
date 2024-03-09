@@ -1,0 +1,45 @@
+/* Default styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #212592;
+  background-image: url("C:\Users\ASUS\OneDrive\Desktop\Teamproject\ipl\src\images\heading.png");
+  background-repeat: no-repeat;
+  padding: 10px;
+  color: white;
+  height: 70px;
+}
+
+nav > ul {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav > ul > li {
+  list-style-type: none;
+  margin: 2px;
+  text-decoration: none;
+  font-weight: bold;
+  text-emphasis: none;
+  padding: 10px;
+}
+
+.logo {
+  height: auto;
+  width: auto;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    height: auto;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+}
