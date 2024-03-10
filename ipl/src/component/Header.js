@@ -4,12 +4,12 @@ const Header = () => {
     <div className="align">
         
       <nav className="header">
-        <img src={logo1} alt="logo" className="logo"></img>
+        <img src={logo1} alt="logo" className="logo"></img> 
         <ul className="navbar">
-          <li>Home</li>
-          <li>Teams</li>
-          <li>Players</li>
-          <li>Stats</li>
+          <li>HOME</li>
+          <li>TEAMS</li>
+          <li>PLAYERS</li>
+          <li>STATS</li>
         </ul>
       </nav>
     </div>
